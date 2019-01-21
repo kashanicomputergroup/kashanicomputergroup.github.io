@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="confirm-sign-up.html" method="POST">
+        <table>
+            <caption>
+
+            </caption>
+            <tbody>
+
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" maxlength="30" name="firstName" required></td>
+                </tr>
+
+                <tr>
+                    <td>LastName:</td>
+                    <td><input type="text" maxlength="40" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <td>Birthday:</td>
+                    <td><input type="date" name="birthday" required></td>
+                </tr>
+                <tr>
+                    <td>Field of study:</td>
+                    <td>
+                        <input type="radio" name="major" checked required>Accounting
+                        <input type="radio" name="major">Architecture
+                        <input type="radio" name="major">Computer
+                    </td>
+                </tr>
+                <tr>
+                    <td>Choose your photo:</td>
+                    <td><input type="file" name="photoFileName"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Sign Up"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        
+    </table>
+    </form>
+
+        
+</body>
+</html>
